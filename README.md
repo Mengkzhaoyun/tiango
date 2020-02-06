@@ -1,2 +1,3 @@
 # tiango
-天狗吃月
+
+a cross-app for windows , mac , linux
