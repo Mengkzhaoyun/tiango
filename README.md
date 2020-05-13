@@ -2,30 +2,25 @@
 
 a cross-app for windows , mac , linux
 
-## Project setup
+## 桌面项目开发调试
 
 ```bash
-yarn install
+# 构建前端页面
+yarn build
+
+# 生成缓存
+go run cmd/gen/main.go
+
+# 调试项目
+F5
 ```
 
-### Compiles and hot-reloads for development
+## 前端项目调试
 
 ```bash
+# 安装NodeModules
+yarn install
+
+# 调试前端页面
 yarn serve
 ```
-
-### Compiles and minifies for production
-
-```bash
-yarn build
-```
-
-### Lints and fixes files
-
-```bash
-yarn lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
